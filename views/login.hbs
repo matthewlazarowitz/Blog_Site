@@ -1,0 +1,66 @@
+<section class="background: linear-gradient(to right, #B1D4C5, #9CC6B3, #87B9A1, #72A98F) shadow-md rounded"
+    style="height: 100%;">
+    <div class="container h-full p-10">
+      <div class="g-6 flex h-full flex-wrap items-center justify-center text-neutral">
+        <div class="w-full">
+          <div class="block rounded-lg bg-[#2F4F4F]">
+            <div class="g-0 lg:flex lg:flex-wrap">
+              <!-- Left column container-->
+              <div class="px-4 md:px-0 lg:w-6/12">
+                <div class="md:mx-6 md:p-12">
+                  <form action="/login" method="POST">
+                    <p class="mb-6 text-[#FF95A1]">Please login to your account.</p>
+        
+                    <!-- Email input -->
+                    <div class="relative mb-4">
+                      <label for="exampleFormControlInput1" class="absolute left-3 -top-3 text-white text-sm">
+                        Email
+                      </label>
+                      <input id="Email" name="email" type="text" placeholder="Email" 
+                        class="peer block min-h-[auto] w-full rounded border-0 bg-[#FFA8B2] px-3 py-[0.32rem] leading-[1.6] outline-none focus:ring-2 focus:ring-[#B1D4C5] focus:ring-opacity-75 transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:placeholder:text-[#72A98F] [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                         />
+                    </div>
+
+                    <!-- Password input -->
+                    <div class="relative mb-4">
+                      <label for="exampleFormControlInput11" class="absolute left-3 -top-3 text-white text-sm">
+                        Password
+                      </label>
+                      <input type="password"
+                        class="peer block min-h-[auto] w-full rounded border-0 bg-[#FFA8B2] px-3 py-[0.32rem] leading-[1.6] outline-none focus:ring-2 focus:ring-[#B1D4C5] focus:ring-opacity-75 transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                        id="password" type="password" name="password" placeholder="******************" />
+                    </div>
+
+
+                    <!--Submit button-->
+                    <div class="mb-12 pb-1 pt-1 text-center">
+                      <button
+                        class="mb-3 inline-block w-full rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_rgba(0,0,0,0.2)] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:outline-none focus:ring-0 active:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)]"
+                         data-te-ripple-init data-te-ripple-color="light" style="
+                        background: linear-gradient(to right, #B1D4C5, #9CC6B3, #87B9A1, #72A98F);
+                      ">
+                        Log in
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <!-- Right column container with background and description-->
+              <div class="flex items-center rounded-b-lg lg:w-6/12 lg:rounded-r-lg lg:rounded-bl-none"
+                style="background: linear-gradient(to right, #FFA8B2, #FF95A1, #FF828F, #FF6F80)">
+                <div class="px-4 py-6 text-white md:mx-6 md:p-12">
+                  <h4 class="mb-12 text-xl font-bold">
+                    Welcome!
+                  </h4>
+                  <p class="text-lg">
+                    Enter your information to start blogging.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
