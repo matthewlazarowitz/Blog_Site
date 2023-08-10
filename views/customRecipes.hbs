@@ -1,0 +1,22 @@
+
+<!-- Form to add a new thought -->
+<form action="/customRecipes" method="POST">
+  <input name="title" type="text" placeholder="Recipe Name">
+  <textarea name="text" placeholder="" rows="4"></textarea>
+  <button type="submit">Save</button>
+</form>
+
+<ul>
+  {{#each thoughts}}
+    <li class="titleBar">
+      <h1>{{this.title}}</h1>
+    </li>
+    <li class= "textBar">
+      <p>{{this.text}}</p>
+      
+    </li>
+    <button class= "removeButton"  recipe-id="{{this.id}}" style="font-size: 25px; padding: 5px;" >&#128465;</button>
+   <script src="/js/removeCustomR"></script>
+  {{/each}}
+</ul>
+
