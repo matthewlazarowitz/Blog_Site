@@ -12,7 +12,7 @@ https://github.com/matthewlazarowitz/Blog_Site
 
 
 ## Heroku Link
-https://drive.google.com/file/d/1jnvdbSSHNrRW7la3EE5FPnfxPhYtFmnn/view
+https://fast-peak-98470-9c98e4cb32dd.herokuapp.com/
 
 
 ## Description
